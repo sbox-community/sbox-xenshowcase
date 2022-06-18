@@ -1,6 +1,11 @@
 .codegen
 obj
+code/obj/*
+code/obj
 accesslist.txt
+code/Properties/*
+code/Properties
+code/*.csproj
 *.csproj
 launchSettings.json
 tools_asset_info.bin
@@ -9,6 +14,7 @@ tools_thumbnail_cache.bin
 *.dll
 *.pdb
 .intermediate/net5.0/sandbox.deps.json
+.intermediate/*
 maps/editor/_bakeresourcecache/toolscene_default_baked/*
 .vs/*
 *.generated.*
