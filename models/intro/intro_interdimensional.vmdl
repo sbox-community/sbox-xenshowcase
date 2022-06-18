@@ -1,0 +1,261 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "bonemask_default"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "cameraparent"
+								weight = 1.0
+							},
+							{
+								bone = "lensflareparent"
+								weight = 1.0
+							},
+							{
+								bone = "ptorus2"
+								weight = 1.0
+							},
+							{
+								bone = "smartcombine_0"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "cameraparent"
+						origin = [ 0.0, -13.5845, 0.0 ]
+						angles = [ -0.0, -0.800004, 91.799881 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "lensflareparent"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "lensflare_sprite"
+								origin = [ -0.06061, 0.008768, 0.238004 ]
+								angles = [ -0.0, 179.199997, -1.576196 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.109131, 1.39496, -0.161346 ]
+						angles = [ -0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "ptorus2"
+						origin = [ -472.3255, 0.0, -99.692001 ]
+						angles = [ -0.0, 0.0, -90.000198 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "smartcombine_0"
+						origin = [ -487.120514, 62.019001, -109.608498 ]
+						angles = [ -0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "cameraParent"
+						parent_bone = "cameraparent"
+						relative_origin = [ 0.0, 0.0, -3.75 ]
+						relative_angles = [ 90.0, 90.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "lensflareParent"
+						parent_bone = "lensflareparent"
+						relative_origin = [ 0.0, -5.0, 2.5 ]
+						relative_angles = [ -0.0, -90.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "cameraparent"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.499998, -2.500035, -2.500004 ]
+								hitbox_maxs = [ 2.500004, 2.499978, 2.500012 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ptorus2"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -517.11969, -179.20314, -514.901917 ]
+								hitbox_maxs = [ 516.607422, 212.543045, 511.125458 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "smartcombine_0"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -728.712891, -696.547485, -197.739777 ]
+								hitbox_maxs = [ 728.713013, 696.547668, 189.146332 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "intro_interdimensional_bg_body_lod0"
+						filename = "models/intro/intro_interdimensional_refs/mesh/intro_interdimensional_bg_body_lod0.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "interdimensional"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/intro/intro_interdimensional_refs/anim/_interdimensional_0.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/intro/intro_interdimensional_refs/anim/_idle_1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "interdimensional_5_ray_is_unused.vmat"
+								to = "materials/intro/interdimensional/interdimensional_5_ray.vmat"
+							},
+							{
+								from = "lambert1_is_unused.vmat"
+								to = "38fa3702fbc033bffeec4b0e2a523123e08e996b/materials/example_shader_material.vmat"
+							},
+							{
+								from = "xen_interdimensional_bg_is_unused.vmat"
+								to = "materials/intro/interdimensional/xen_interdimensional_bg.vmat"
+							},
+							{
+								from = "xen_interdimensional_energy_is_unused.vmat"
+								to = "materials/intro/interdimensional/xen_interdimensional_energy.vmat"
+							},
+							{
+								from = "xen_interdimensional_track_is_unused.vmat"
+								to = "materials/intro/interdimensional/xen_interdimensional_track.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

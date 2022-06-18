@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"Nihilanth_Body_Diffuse_Rim_is_unused.vmt"
+}

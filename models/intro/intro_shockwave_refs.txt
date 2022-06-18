@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"shockwave_loop_is_unused.vmt"
+	"file"	"undefined_is_unused.vmt"
+	"file"	"interdimensional_5_ray_is_unused.vmt"
+}

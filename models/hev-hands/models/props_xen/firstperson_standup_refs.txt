@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"v_hand_is_unused.vmt"
+	"file"	"v_hand_m_is_unused.vmt"
+	"file"	"crowbar_d_is_unused.vmt"
+}

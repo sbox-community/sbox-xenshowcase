@@ -1,0 +1,53 @@
+﻿<link rel="stylesheet" href="minimalhud.scss">
+
+<div>
+
+	<label style="width:500px;height:100px;border:1px solid #000;">This is a rectangle!</label>
+
+
+
+	<!--
+			<div class="form-value">
+
+				<select @value="FloatValue">
+					<option value="0">Zero</option>
+					<option value="10">Ten</option>
+					<option value="50">Fifty</option>
+				</select></div>
+
+	<text class="title">My Minimal Game</text>-->
+
+
+	<label @ref="DragArea" @text="Title" class="window-title" />
+	<button class="window-close" onclick="Close()">✕</button>
+	<div class="form">
+
+		<div class="form-row">
+			<!--<div class="form-label">
+				<text>Drop Down</text>
+			</div>-->
+			<div class="form-value">
+
+				<select @value="TextValue">
+					<option value="#f00">Red</option>
+					<option value="#ff0">Yellow</option>
+					<option value="#0f0">Green</option>
+				</select>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!-- A crosshair in just css <div style="position: absolute; left: 50%; top: 50%; background-color: white; border-radius: 10px; width: 4px; height: 4px; transform: translate( -50% -50% );"></div> -->
+
+
+	<chatbox></chatbox>
+
+
+</div>
+

@@ -1,0 +1,8 @@
+importfilelist
+{
+	"file"	"lambert1_is_unused.vmt"
+	"file"	"xen_interdimensional_bg_is_unused.vmt"
+	"file"	"interdimensional_5_ray_is_unused.vmt"
+	"file"	"xen_interdimensional_track_is_unused.vmt"
+	"file"	"xen_interdimensional_energy_is_unused.vmt"
+}
