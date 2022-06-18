@@ -13,7 +13,8 @@ tools_thumbnail_cache.bin
 *.xml
 *.dll
 *.pdb
-.intermediate/net5.0/sandbox.deps.json
+.intermediate/net5.0/*
+.intermediate/netstandart2.0/*
 .intermediate/*
 .intermediate
 maps/editor/_bakeresourcecache/toolscene_default_baked/*
