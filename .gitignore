@@ -15,6 +15,7 @@ tools_thumbnail_cache.bin
 *.pdb
 .intermediate/net5.0/*
 .intermediate/netstandart2.0/*
+.intermediate/net5.0/*.deps.json
 .intermediate/*
 .intermediate
 maps/editor/_bakeresourcecache/toolscene_default_baked/*
